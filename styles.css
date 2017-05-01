@@ -1,0 +1,28 @@
+html{
+	background-color: #f2f1f1;
+}
+
+
+*{
+	font-family: arial black;
+}
+
+#contra {
+	margin-top: 20px;
+}
+
+#top {
+	position: relative; 
+	clear: both;
+}
+
+#top-button {
+	height: 50%;
+	width: 24%;
+	margin-top: 15px;
+}
+
+div {
+	width: 60%;
+	margin-left: 20%;
+}

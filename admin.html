@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>CalmWare</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+
+<body>
+
+<div id="top" style="height: 60px; border:  1px solid black; background-color: #bec2c5; position: relative; clear: both;">
+
+<button type="button" id="top-button" name="inicio" onclick="cambiarIni()"> INICIO </button>
+<!-- <button type="button" id="top-button" name="disponibilidad" onclick="cambiarDisp()"> DISPONIBILIDAD </button>
+<button type="button" id="top-button" name="noticias"> NOTICIAS </button> -->
+<button type="button" id="top-button" name="iniciar sesion" onclick="cambiarSes()" style="margin-left: 48%;"> INICIAR SESION </button>
+
+</div>
+
+<div id = "top" style="height: 100px; border: 1px solid black; background-color: #8dc4cc; position: relative; clear: both;">
+<font size="7" style="color: white;"><strong>Punto Blanco</strong></font>  <font size ="5" style="color: white;"><br> Administrador </font>
+</div>
+
+
+<div id = "top" style="height: 500px; border: 1px solid black; background-color: #bec2c5; position: relative; clear: both;">
+
+<div style="width: 50%; height: 500px; margin-left: 0px; float: left;">
+	<img src="http://distritotec.itesm.mx/wp-content/uploads/2017/02/1024x819xDSC_6987-1200x960.jpg.pagespeed.ic.jLLXn-xPKy.jpg" style="width: 100%; height: 500px;">
+</div>
+
+<div style="width: 50%; margin-left: 50%; margin-top: 20%;">
+	<button type = "button" onclick="entradaSalida(1) " name = "Entrada" style="margin-left: 20%; width: 120px;"> ENTRADA </button>
+	<button type="button" onclick="entradaSalida(0) " name="Salida" style="margin-left: 20px; width: 120px;"> SALIDA </button>
+	<br>
+	<br>
+	<label id = "resultado" style="margin-left: 40%;">0</label>
+	<br>
+	<br>
+	<br>
+	<button type="button" onclick="guardar()"></button>
+</div>
+
+</div>
+
+</body>
+
+<script src="IndexActions.js"></script>
+
+</html>
